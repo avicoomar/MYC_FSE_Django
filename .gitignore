@@ -1,0 +1,6 @@
+# Ignore the virtual environment folders anywhere in the project
+venv/
+
+# Ignore __pycache__ folders & python compiled files anywhere in the project
+__pycache__/
+*.py[cod]

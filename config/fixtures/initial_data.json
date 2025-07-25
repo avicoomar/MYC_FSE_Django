@@ -1,0 +1,583 @@
+[
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "users",
+      "myuser"
+    ],
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "users",
+      "myuser"
+    ],
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "users",
+      "myuser"
+    ],
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "users",
+      "myuser"
+    ],
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add entrepreneur detail",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "add_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change entrepreneur detail",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "change_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete entrepreneur detail",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "delete_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view entrepreneur detail",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "view_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add company",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "add_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change company",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "change_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete company",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "delete_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view company",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add investor detail",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "add_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change investor detail",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "change_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete investor detail",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "delete_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view investor detail",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "view_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view own companies",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "view_own_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view own entrepreneurdetails",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "view_own_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change own entrepreneurdetails",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "change_own_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete own entrepreneurdetails",
+    "content_type": [
+      "users",
+      "entrepreneurdetail"
+    ],
+    "codename": "delete_own_entrepreneurdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view own investordetails",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "view_own_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change own investordetails",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "change_own_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete own investordetails",
+    "content_type": [
+      "users",
+      "investordetail"
+    ],
+    "codename": "delete_own_investordetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change own companies",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "change_own_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete own companies",
+    "content_type": [
+      "users",
+      "company"
+    ],
+    "codename": "delete_own_company"
+  }
+},
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "investor_group",
+    "permissions": [
+      [
+        "view_company",
+        "users",
+        "company"
+      ],
+      [
+        "add_investordetail",
+        "users",
+        "investordetail"
+      ],
+      [
+        "change_own_investordetail",
+        "users",
+        "investordetail"
+      ],
+      [
+        "delete_own_investordetail",
+        "users",
+        "investordetail"
+      ],
+      [
+        "view_own_investordetail",
+        "users",
+        "investordetail"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "entrepreneur_group",
+    "permissions": [
+      [
+        "add_company",
+        "users",
+        "company"
+      ],
+      [
+        "change_own_company",
+        "users",
+        "company"
+      ],
+      [
+        "delete_own_company",
+        "users",
+        "company"
+      ],
+      [
+        "view_own_company",
+        "users",
+        "company"
+      ],
+      [
+        "add_entrepreneurdetail",
+        "users",
+        "entrepreneurdetail"
+      ],
+      [
+        "change_own_entrepreneurdetail",
+        "users",
+        "entrepreneurdetail"
+      ],
+      [
+        "delete_own_entrepreneurdetail",
+        "users",
+        "entrepreneurdetail"
+      ],
+      [
+        "view_own_entrepreneurdetail",
+        "users",
+        "entrepreneurdetail"
+      ],
+      [
+        "view_investordetail",
+        "users",
+        "investordetail"
+      ]
+    ]
+  }
+}
+]
